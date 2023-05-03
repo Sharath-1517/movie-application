@@ -35,4 +35,5 @@
     - After installing go to [MongoDB Atlas](https://account.mongodb.com/account/login), login if you already have an account or signup for a new one.
     - Follow up with the signup guide that the interface provides and create a free tier database (or you can use the paid one if you have that, anything that is according to your convienience).
     - Now you have to connect the MongoDB Atlas with your MongoDB Compass.
+    ![Web capture_3-5-2023_12222_www bing com](https://user-images.githubusercontent.com/111525679/235846283-d3d00b14-2e20-4cb0-9f6b-f367694f5b2f.jpeg)
     - 
