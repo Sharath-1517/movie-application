@@ -45,5 +45,7 @@
     - Go to this link provided ([LINK](https://raw.githubusercontent.com/fhsinchy/movieist/master/_data/movies.json)) and click `WIN + S` and save that file in your preferrable location in your computer.
     - Now head back to the MongoDB compass and select the `Add data button > Import data from JSON/CSV` <br><br>
     ![image](https://user-images.githubusercontent.com/111525679/235850701-293370b0-9718-4127-abbe-a649a34baa9b.png)
-    
+    - Now locate to the JSON file you downloaded from the link I provided above and choose the file.
+    - Now all those data will get imported to your movies data collection.
+    - ### Now you have successfully completed the database setup.
 
