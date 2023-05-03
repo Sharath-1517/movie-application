@@ -43,6 +43,7 @@
     - After successfully connecting your MongoDB Compass, now it's time to create a database `movie` (`You can give any name for the collection but only if you're sure that you can identify and change the .env variables accordingly in the` [src/main/resources](https://github.com/Sharath-1517/movie-application/blob/main/movies/src/main/resources/.env.example)`file and make sure you change the file name .env.example to .env`).
     - Next, you need to create a collection `movies`.
     - Go to this link provided ([LINK](https://raw.githubusercontent.com/fhsinchy/movieist/master/_data/movies.json)) and click `WIN + S` and save that file in your preferrable location in your computer.
-    - Now head back to the MongoDB compass and select the `Add data button > Import data from JSON/CSV` 
+    - Now head back to the MongoDB compass and select the `Add data button > Import data from JSON/CSV` <br><br>
     ![image](https://user-images.githubusercontent.com/111525679/235850701-293370b0-9718-4127-abbe-a649a34baa9b.png)
+    
 
