@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.movie-carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100%;
+  background-color: black;
+}
+
+.movie-poster {
+  height: 300px;
+  border: 1px solid gold;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.movie-poster > img {
+  height: 100%;
+  width: 100%;
+}
+
+.movie-card-container {
+  height: 550px;
+  background-color: black;
+}
+
+.movie-card {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), var(--img);
+}
+
+.movie-detail {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  width: 100%;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.play-button-icon-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-width: 100%;
+}
+
+.movie-title {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.movie-buttons-container {
+  display: flex;
+  gap: 55px;
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+  transition: transform 0.3s;
+}
+
+.play-button-icon {
+  color: gold;
+  font-size: 3rem;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.play-button-icon:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+.reviews-btn {
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #ffd700;
+  padding: 0.6em 1em;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+.reviews-btn:hover {
+  border: 3px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.5254901961);
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+  .movie-detail {
+    min-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    top: 20px;
+    font-size: 2rem;
+  }
+  .movie-buttons-container {
+    position: static;
+    justify-content: center;
+  }
+  .reviews-btn {
+    font-size: 1.2rem;
+  }
+  .reviews textarea {
+    min-width: 100%;
+  }
+}
+.responsive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+}
+.responsive-nav {
+  position: absolute;
+  top: 78px;
+  left: -100%;
+  border-top: 2px solid gold;
+  z-index: 1000;
+  background-color: #000000;
+  min-height: 10vh;
+  min-width: 100%;
+  opacity: 0.5;
+}
+.responsive-nav-active {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 78px;
+  border-top: #ffd700 2px solid;
+  border-bottom: solid gold 2px;
+  z-index: 1000;
+  background-color: #000000;
+  height: -moz-max-content;
+  height: max-content;
+  min-width: 100%;
+}
+.responsive button {
+  width: 100%;
+  padding: 1.5em 0;
+  border: 2px solid #000000;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8274509804);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.responsive button:hover {
+  color: #000000;
+  background-color: #ffd700;
+  border: 2px solid rgba(255, 153, 0, 0.3843137255);
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 3em;
+  transition: 0.2s;
+}
+.container-fluid button {
+  padding: 0.8em 1em;
+  font-weight: 600;
+  background-color: gold;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: rgb(31, 31, 31);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.container-fluid button:hover {
+  color: #ffffff;
+  background-color: black;
+  border: 2px solid #ffd700;
+}
+
+.navbar-collapse {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  left: 190px;
+  bottom: -8px;
+}
+
+.navbar-nav-scroll {
+  position: absolute;
+  right: 250px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar-nav-scroll a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.3s;
+}
+.navbar-nav-scroll a:hover {
+  font-weight: 800;
+  transform: scale(1.2);
+}
+
+.burger-btn {
+  display: none;
+  margin-right: 40px;
+  max-width: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  filter: invert(54%) saturate(4537%) brightness(70%) contrast(100%) grayscale(100%);
+}
+.burger-btn:hover {
+  transform: scale(1.2);
+}
+
+@media (width < 600px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .burger-btn {
+    display: block;
+  }
+}
+.react-player-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.reviews {
+  min-width: 100%;
+}
+.reviews .container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.reviews .container .col + .col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.reviews .container h3 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+.reviews .container img {
+  max-height: 40vmin;
+  border: 2px solid #ffd007;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.reviews .container textarea {
+  padding: 0.7em;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border: 2px solid #ffd007;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 500px;
+  max-height: 150px;
+  overflow: scroll;
+}
+.reviews .container button {
+  margin-top: 25px;
+  padding: 0.7em 0.9em;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  background-color: #ffd007;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.reviews .container button:hover {
+  background-color: transparent;
+  border: 3px solid #ffd007;
+  color: #ffd007;
+}
+.reviews .container .mb-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.reviews .container .mt-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  gap: 25px;
+}
+.reviews hr {
+  margin-top: 50px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
