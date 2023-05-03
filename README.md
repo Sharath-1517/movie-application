@@ -48,4 +48,4 @@
     - Now locate to the JSON file you downloaded from the link I provided above and choose the file.
     - Now all those data will get imported to your movies data collection.
     - ### Now you have successfully completed the database setup.
-
+  - ## Step-2: Setting up Backend
