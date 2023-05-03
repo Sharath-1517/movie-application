@@ -40,4 +40,4 @@
     - Copy the code that you can see from the above, and paste it in your MongoDB Compass. It will look like this, <br><br>
     ![Screenshot 2023-05-03 120650](https://user-images.githubusercontent.com/111525679/235846789-ff3cd9e0-d2d6-41c2-bd2c-f0550dae5f06.png)
     - Now click the connect button (`do not forget about the password you have to change in the connection string as they have mentioned **<password>** replace it with your password that you created when you created that database.`)
-    - After successfully connecting your
+    - After successfully connecting your MongoDB Compass, now it's time to create a collection `movie` (`You can give any name for the collection but only if you're sure that you can identify and change the .env variables accordingly in the [src/main/resources](#)`)
