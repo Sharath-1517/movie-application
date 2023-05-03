@@ -42,10 +42,9 @@
     - Now click the connect button (`do not forget about the password you have to change in the connection string as they have mentioned **<password>** replace it with your password that you created when you created that database.`)
     - After successfully connecting your MongoDB Compass, now it's time to create a database `movie` (`You can give any name for the collection but only if you're sure that you can identify and change the .env variables accordingly in the` [src/main/resources](https://github.com/Sharath-1517/movie-application/blob/main/movies/src/main/resources/.env.example)`file and make sure you change the file name .env.example to .env`).
     - Next, you need to create a collection `movies`.
-    - Go to this link provided ([LINK](https://raw.githubusercontent.com/Sharath-1517/movie-application/main/_data/movies.json?token=GHSAT0AAAAAACBLBP2D5NLTOEQBTFSG4PWKZCSECGA)) and click `WIN + S` and save that file with .json extension in your preferrable location in your computer.
     - Now head back to the MongoDB compass and select the `Add data button > Import data from JSON/CSV` <br><br>
     ![image](https://user-images.githubusercontent.com/111525679/235850701-293370b0-9718-4127-abbe-a649a34baa9b.png)
-    - Now locate to the JSON file you downloaded from the link I provided above and choose the file.
+    - Now locate to the JSON file from the `_data` folder in the root directory of this project and choose the file.
     - Now all those data will get imported to your movies data collection.
     - ### Now you have successfully completed the database setup.
   - ## Step-2: Setting up Backend
