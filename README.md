@@ -35,6 +35,8 @@
     - After installing go to [MongoDB Atlas](https://account.mongodb.com/account/login), login if you already have an account or signup for a new one.
     - Follow up with the signup guide that the interface provides and create a free tier cluster (or you can use the paid one if you have that, anything that is according to your convienience).
     - `NOTE: Do not provide any special characters in your password else you will find it trouble in connecting  with the MongoDBCompass; Although, you have a solution for it. I will not recommend using the special characters in it.`
+    - Make sure you provide the IP Address as 0.0.0.0(you might have given any other IP address below, remove/delete them) and set any description you want to as mentioned in the below image, <br><br>
+    ![Screenshot 2023-05-05 003234](https://user-images.githubusercontent.com/111525679/236303854-4c360fbd-8cb8-43ee-848e-67c14c5e1e1f.png)
     - Now you have to connect the MongoDB Atlas cluster with your MongoDB Compass.
     ![Web capture_3-5-2023_12222_www bing com](https://user-images.githubusercontent.com/111525679/235846283-d3d00b14-2e20-4cb0-9f6b-f367694f5b2f.jpeg)
     - Copy the code that you can see from the above, and paste it in your MongoDB Compass. It will look like this, <br><br>
