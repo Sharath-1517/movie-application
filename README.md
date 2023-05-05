@@ -3,8 +3,8 @@
 ## Table of contents
 - ### [Introduction](#introduction)
   - [Frontend](#frontend)
-  - [Backend]()
-  - [Database]()
+  - [Backend](#backend)
+  - [Database](#database)
 - ### [How to use the code](#how-to-use-the-code-1)
 - ### Contact me for discussions or queries
   - [Twitter](https://twitter.com/sharathlingams)
@@ -74,7 +74,14 @@
    - Rename that file to `.env.example => .env`.
    - Now fill the particulars(variable values with the values of the MongoDB connection string i.e. mongodb+srv://[username of the cluster]:[cluster password]@[cluster])
    - Now go to the main class and run the main class.
+   - ### NOTE: Make sure you let it run in your PC or Laptop.
    - ### Congratulations! You have successfully setup your backend, now let's make it to the frontend part!!
   - ## Step-3: Setting up Frontend
    - ### Prerequisites: [Node.js](https://nodejs.org/en), [Visual Studio Code](https://code.visualstudio.com/)
-   - Now open the ``
+   - Now open the `movies/movies-frontend` folder in visual studio code.
+   - Open the terminal and enter this command,
+  ```
+    npm install 
+    npm run dev
+  ```
+  - ### There we go, we have successfully cloned, modified and executed our small full-stack web application.
