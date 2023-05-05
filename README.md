@@ -50,3 +50,18 @@
     - Now all those data will get imported to your movies data collection.
     - ### Now you have successfully completed the database setup.
   - ## Step-2: Setting up Backend
+  - ### Prerequisites: Java JDK 17 and Maven 3.9 (NOTE: I used this version, make sure you install JDK 15 and Maven 3.x or above).
+  - Links to JDK and Maven download: [Java JDK](https://www.oracle.com/java/technologies/downloads/#java17), [Maven](https://maven.apache.org/download.cgi)
+  - Now setup the environment variables for both,
+    - For Java, go to `%JAVA_HOME%/bin`, and copy the path from the file manager.
+    - Create an environment variable named `JAVA_HOME` and paste only the path to the Java JDK root directory. (**NOTE: Make sure you don not paste the %JAVA_HOME%/bin in the `JAVA_HOME` variable.**).
+    - Now go to the `path` variable and paste this => `%JAVA_HOME%/bin` and save it.
+    - Now go to the downloaded maven path and copy the `MAVEN_HOME` same like you did with `JAVA_HOME` (**NOTE: Make sure you don not paste the %MAVEN_HOME%/bin in the `MAVEN_HOME` variable.**).
+    - Now go to the `path` variable and paste this => `%MAVEN_HOME%/bin` and save it.
+    - To verify them copy and paste these commands in your command prompt. **(NOTE: Make sure you open a new command prompt)**.
+      - Commands
+        ``` 
+        java --version
+        mvn --version 
+        ```
+    - You're are set now with maven and java env. variables. 
