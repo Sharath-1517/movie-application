@@ -64,4 +64,9 @@
         java --version
         mvn --version 
         ```
-    - You're are set now with maven and java env. variables. 
+    - If you have any queries or any CLI errors that you are facing, I would highly recommend to reach out to tutorials, or even can drop me a mail, or dm me in twitter :).
+    - You're are set now with maven and java env. variables.
+   - Aight! now it is time to load our maven project
+   - Install IntelliJ Idea(my recommendation as I felt really comfortable using IntelliJ Idea).
+   - After downloading and installing the application, drag the `/movies/` folder and drop on the IntelliJ Idea application.
+   - 
