@@ -72,4 +72,9 @@
    - Click allow and load any pop-up the application gives, it is no harm to your PC or Laptop.
    - Now go to the `movies/src/main/resources` open the .env.example file.
    - Rename that file to `.env.example => .env`.
-   - Now fill the particulars(variables with the )
+   - Now fill the particulars(variable values with the values of the MongoDB connection string i.e. mongodb+srv://[username of the cluster]:[cluster password]@[cluster])
+   - Now go to the main class and run the main class.
+   - ### Congratulations! You have successfully setup your backend, now let's make it to the frontend part!!
+  - ## Step-3: Setting up Frontend
+   - ### Prerequisites: [Node.js](https://nodejs.org/en), [Visual Studio Code](https://code.visualstudio.com/)
+   - Now open the ``
