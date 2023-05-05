@@ -69,4 +69,7 @@
    - Aight! now it is time to load our maven project
    - Install IntelliJ Idea(my recommendation as I felt really comfortable using IntelliJ Idea).
    - After downloading and installing the application, drag the `/movies/` folder and drop on the IntelliJ Idea application.
-   - 
+   - Click allow and load any pop-up the application gives, it is no harm to your PC or Laptop.
+   - Now go to the `movies/src/main/resources` open the .env.example file.
+   - Rename that file to `.env.example => .env`.
+   - Now fill the particulars(variables with the )
