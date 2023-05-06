@@ -18,13 +18,13 @@
 
   - ## Frontend
     - ### Tech stacks that I have used / that you must be familiar with:<br>
-      - [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="50"/>](https://www.w3schools.com/html/) [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="50"/>](https://www.w3schools.com/Css/) [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="50"/>](https://react.dev/) [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50"/>](https://developer.mozilla.org/en-US/docs/Web/javascript) <br><br>
+       [![My Skills](https://skillicons.dev/icons?i=react,html,css,sass,bootstrap)](https://skillicons.dev) <br><br>
   - ## Backend
     - ### Tech stacks that I have used / that you must be familiar with:<br>
-      - [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="50"/>](https://dev.java/learn/) [<img src="icons/maven.png" height="50" style="border: 2px solid #504B4B"/>](https://maven.apache.org/) &nbsp;&nbsp;[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" height="50"/>](https://spring.io/projects/spring-boot) <br><br>
+       [![My Skills](https://skillicons.dev/icons?i=java,spring,maven)](https://skillicons.dev) <br><br>
   - ## Database
-    - Tech stacks that I have used / that you must be familiar with:<br>
-      - [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="50"/>](https://www.mongodb.com/docs/guides/)
+    - ### Tech stacks that I have used / that you must be familiar with:<br>
+       [![My Skills](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)
 <hr>
 <br>
 
